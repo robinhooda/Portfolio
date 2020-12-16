@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 
 :root {
-    --primary-color: #059669;
+    --primary-color: #3B82F6;
+    --secondary-color: #EFF6FF;
     --dark-purple: #6366F1;
     --light-gray: #F3F4F6;
+    --dark-gray: #6B7280;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--secondary-color);
+    margin: 0rem;
 }
 
 hr {
@@ -41,17 +45,18 @@ hr {
 
 .un-bulleted-list {
     list-style-type: none;
+    padding: 0rem;
 }
 
 .inline-lists li {
     display: inline;
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
 }
 
 .navigation {
     background-color: var(--primary-color);
     padding: 1rem 0rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .navigation ul {
@@ -74,18 +79,19 @@ hr {
 
 .hero {
     text-align: center;
+    padding: 1rem;
 }
 
 .hero-img {
-    max-width: 350px;
+    max-width: 330px;
 }
 
-.hero h1 {
+.hero-heading {
+    color: var(--dark-gray);
+}
+
+.inverted-heading {
     color: var(--primary-color);
-}
-
-.purple-heading {
-    color: var(--dark-purple);
 }
 
 .section {
@@ -102,7 +108,7 @@ hr {
 
 .footer .section {
     background-color: var(--primary-color);
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 2rem;
 }
 
 .footer .heading,
