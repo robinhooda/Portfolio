@@ -115,6 +115,7 @@ hr {
 .footer .heading,
 a {
     color: white;
+    text-align: center;
 }
 
 .footer ul {
